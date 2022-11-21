@@ -16,41 +16,79 @@ The code provided below is needed, but you can add properties and values to the 
 @import url("https://fonts.googleapis.com/css?family=Lato|Supermercado+One");
 
 nav {
-    font-family: sans-serif;
-    font-size: 10px;
+  font-family: sans-serif;
+  font-size: 10px;
 }
 
 #main {
-    width: 900px;
-    margin: 10px auto;
+  width: 900px;
+  margin: 10px auto;
 }
 
-#menu {
-    columns: 400px 2;
-    column-gap: 100px;
-}
-section {
-    margin-bottom: 50px;
-}
-
-h2 {
-    margin: 0;
-}
-
+/* sub-text */
 dd {
     margin: 0 0 12px 0;
     display: flex;
+}
+  
+
+/* menu formating */
+#menu {
+  columns: 400px 2;
+  column-gap: 100px;
+  column-rule: 2px dashed rosybrown;
+}
+section {
+  margin-bottom: 50px;
 }
 
 .details {
     order: 1;
 }
 
+/* price */
 .price {
-    order: 2;
-    padding-left: 10px;
+  order: 2;
+  padding-left: 10px;
+  padding-left: 10px;
+  color: firebrick;
+  font-size: large;
 }
 
-address {
-    padding: 10px;
+/* Rossum's Universal Restaurant title */
+h1 {
+  font-size: 45px;
+  color: #5d4037;
+  font-family: Supermercado One;
 }
+
+/* subtitles */
+h2 {
+  margin: 0;
+  font-variant: small-caps;
+  color: #6d4c41;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* order's name */
+dt {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* address position */
+address {
+  padding: 10px;
+  border: 2px dashed rosybrown;
+  font-size: 18px;
+  padding: 10px;
+}
+
+body {
+  background-image: url(./img/map-bg.jpeg);
+  display: block;
+  margin: 8px;
+  font-size: 20px;
+}
+

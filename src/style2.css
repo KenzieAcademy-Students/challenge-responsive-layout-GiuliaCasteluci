@@ -28,6 +28,7 @@ nav {
     columns: 420px 2;
     column-gap: 60px;
 }
+
 section {
     margin-bottom: 20px;
     padding: 10px;
@@ -55,4 +56,57 @@ dd::after {
 .price {
     float: right;
     padding: 0 0 35px 20px;
+}
+
+/* rossum's universal restaurant title */
+h1 {
+    font-family: Bungee Inline;
+    font-size: 46px;
+    font-weight: lighter;
+}
+
+/* starters square */
+#starters {
+    border: 2px solid black;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+dt {
+    display: inline;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* desserts square */
+#desserts {
+    border: 2px solid black;
+}
+
+/* address to the right */
+address {
+    text-align: right;
+}
+
+/* menu's font */
+body {
+    font-family: Oswald;
+    font-size: 14px;
+}
+
+/* order's name */
+h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* add comma */
+dd::before {
+    content: ",";
 }
