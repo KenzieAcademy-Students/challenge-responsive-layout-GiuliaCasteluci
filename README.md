@@ -6,12 +6,13 @@ Customize this README.md however you want to turn it into documentation for your
 
 ## Project Plan (Advanced Level Only)
 
-_(Put your project plan here. Explain the reasoning behind your design and your thought process from conception to implementation.)_
-
+For this assignment i just used the dev tools and messed around following the instructions.
 ## Reflection (All Levels)
 
 Why is it important that a website works well on a broad range of browsers and screen sizes?
+
+Because the website will be opened by different people in different screens, such as iphone, samsung, computer, notbook, they all have diffrent screen sizes. We must make sure everyone can open our websites
+
  
 As front-end developers, how do we make sure that pages work equally well across a variety of browsers and screen size?
-
-_(Put your reflection answer here.)_
+HTML is fundamentally responsive, or fluid. If you create a web page containing only HTML, with no CSS, and resize the window, the browser will automatically reflow the text to fit the viewport. Other than that, we can use media queries. Media queries allow you to apply CSS styles depending on a device's general type (such as print vs. screen) or other characteristics such as screen resolution or browser viewport width. You can test and monitor media states using the Window.matchMedia() and MediaQueryList.addListener() JavaScript methods.
