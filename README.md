@@ -15,4 +15,5 @@ Because the website will be opened by different people in different screens, suc
 
  
 As front-end developers, how do we make sure that pages work equally well across a variety of browsers and screen size?
+
 HTML is fundamentally responsive, or fluid. If you create a web page containing only HTML, with no CSS, and resize the window, the browser will automatically reflow the text to fit the viewport. Other than that, we can use media queries. Media queries allow you to apply CSS styles depending on a device's general type (such as print vs. screen) or other characteristics such as screen resolution or browser viewport width. You can test and monitor media states using the Window.matchMedia() and MediaQueryList.addListener() JavaScript methods.
